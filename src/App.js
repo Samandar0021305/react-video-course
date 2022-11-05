@@ -1,6 +1,7 @@
 import './App.css';
 import ClassCounter from './components-1/ClassCounter';
 import HookCounter from './components-1/HookCounter';
+import HookCountFour from './components-1/HookCountFour';
 import HookCountTree from './components-1/HookCountTree';
 import HookCounterTwo from './components-1/HookCountTwo';
 import ClassClick from './components/ClassClick';
@@ -27,7 +28,8 @@ function App() {
    {/* <ClassCounter />
    <HookCounter /> */}
    {/* <HookCounterTwo /> */}
-   <HookCountTree />
+   {/* <HookCountTree /> */}
+   <HookCountFour />
     </div>
   // <div className='App'>
     // {/* <EventClick /> */}

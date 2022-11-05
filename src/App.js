@@ -13,6 +13,7 @@ import NameList from './components/NameList';
 import Parents from './components/Parents';
 import UserGreat from './components/UserGreat';
 import Header1 from './components1/Header1';
+import HookCounterOne from './pages/HookCounterOne';
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
    <HookCounter /> */}
    {/* <HookCounterTwo /> */}
    {/* <HookCountTree /> */}
-   <HookCountFour />
+   {/* <HookCountFour /> */}
+   <HookCounterOne />
     </div>
   // <div className='App'>
     // {/* <EventClick /> */}

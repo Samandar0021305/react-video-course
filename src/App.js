@@ -1,4 +1,7 @@
 import './App.css';
+import ClassCounter from './components-1/ClassCounter';
+import HookCounter from './components-1/HookCounter';
+import HookCounterTwo from './components-1/HookCountTwo';
 import ClassClick from './components/ClassClick';
 import Counter from './components/Counter';
 import EventClick from './components/EventClick';
@@ -7,6 +10,7 @@ import Great from './components/Great';
 import NameList from './components/NameList';
 import Parents from './components/Parents';
 import UserGreat from './components/UserGreat';
+import Header1 from './components1/Header1';
 
 function App() {
   return (
@@ -15,6 +19,13 @@ function App() {
       {/* <NameList /> */}
     {/* <UserGreat /> */}
     {/* <Parents /> */}
+
+
+    {/* <Header1 name={"Vishvas"} /> */}
+  
+   {/* <ClassCounter />
+   <HookCounter /> */}
+   <HookCounterTwo />
     </div>
   // <div className='App'>
     // {/* <EventClick /> */}

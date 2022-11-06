@@ -13,6 +13,7 @@ import NameList from './components/NameList';
 import Parents from './components/Parents';
 import UserGreat from './components/UserGreat';
 import Header1 from './components1/Header1';
+import DataFetch from './pages/DataFetch';
 import HookCounterOne from './pages/HookCounterOne';
 
 function App() {
@@ -31,7 +32,9 @@ function App() {
    {/* <HookCounterTwo /> */}
    {/* <HookCountTree /> */}
    {/* <HookCountFour /> */}
-   <HookCounterOne />
+   {/* <HookCounterOne /> */}
+
+    <DataFetch />
     </div>
   // <div className='App'>
     // {/* <EventClick /> */}
